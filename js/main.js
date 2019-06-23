@@ -1,4 +1,4 @@
-menu.onclick = function myFunction(){
+document.getElementById('menu').onclick = function myFunction(){
     let x = document.getElementById("myTopnav");
 
         if(x.className === "topnav") {
